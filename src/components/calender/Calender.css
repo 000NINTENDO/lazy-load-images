@@ -1,0 +1,74 @@
+.calender_container {
+	width: 400px;
+	/* height: 400px; */
+	background: #f1f1f1;
+	margin: 20px;
+	padding: 10px;
+}
+
+.calender_head {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.calender_head_month_year {
+	display: flex;
+}
+
+.calender_head_month_year__month,
+.calender_head_month_year__year {
+	padding-left: 2.5px;
+	padding-right: 2.5px;
+}
+
+.calender_head__reverse_btn__button,
+.calender_head__forward_btn__button {
+	border: 0;
+	outline: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.calender_days {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	margin-top: 15px;
+}
+
+.calender_days__day {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.calender_body {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.calender_body__dates {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	justify-content: space-evenly;
+}
+
+.calender_body__dates_date {
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* padding: 10px 5px; */
+	border-radius: 50%;
+}
+
+.current_date {
+	background: #ffc7c7;
+}
+
+.date_visible:hover {
+	background: #ffc7c7;
+}
