@@ -8,10 +8,11 @@ import DragableElement from "./components/dragable_element/DragableElement";
 import "./index.css";
 import Layout from "./components/grid_layout/Layout";
 import Calender from "./components/calender/Calender";
+import NavBar from "./components/navgation_bar/NavBar";
 
 ReactDOM.render(
 	<>
-		<Calender />
+		<NavBar />
 	</>,
 	document.getElementById("root")
 );
