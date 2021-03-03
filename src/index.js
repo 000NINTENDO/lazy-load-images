@@ -9,10 +9,11 @@ import "./index.css";
 import Layout from "./components/grid_layout/Layout";
 import Calender from "./components/calender/Calender";
 import NavBar from "./components/navgation_bar/NavBar";
+import Main from "./Main";
 
 ReactDOM.render(
 	<>
-		<NavBar />
+		<Main />
 	</>,
 	document.getElementById("root")
 );
